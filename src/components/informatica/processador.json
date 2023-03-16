@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_informatica_processadors",
+  "info": {
+    "displayName": "Processador",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Modelo": {
+      "type": "string",
+      "required": true
+    },
+    "Socket": {
+      "type": "string",
+      "required": true
+    },
+    "Frequencia": {
+      "type": "string",
+      "required": true
+    },
+    "Velocidade": {
+      "type": "string",
+      "required": true
+    },
+    "Cache": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

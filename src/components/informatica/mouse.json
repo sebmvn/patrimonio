@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_informatica_mice",
+  "info": {
+    "displayName": "Mouse"
+  },
+  "options": {},
+  "attributes": {
+    "Marca": {
+      "type": "string",
+      "required": true
+    },
+    "Modelo": {
+      "type": "string",
+      "required": true
+    },
+    "Entrada": {
+      "type": "enumeration",
+      "enum": [
+        "USB",
+        "PS2"
+      ]
+    }
+  }
+}

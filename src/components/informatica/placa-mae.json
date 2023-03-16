@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_informatica_placa_maes",
+  "info": {
+    "displayName": "Placa mãe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Marca": {
+      "type": "string",
+      "required": true
+    },
+    "Modelo": {
+      "type": "string",
+      "required": true
+    },
+    "Socket": {
+      "type": "string",
+      "required": true
+    },
+    "M2": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Video": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Entrada": {
+      "type": "customField",
+      "options": [
+        "VGA",
+        "DVI",
+        "HDMI",
+        "Display Port"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}

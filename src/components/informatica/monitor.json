@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_informatica_monitors",
+  "info": {
+    "displayName": "Monitor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Marca": {
+      "type": "string",
+      "required": true
+    },
+    "Modelo": {
+      "type": "string",
+      "required": true
+    },
+    "Tamanho": {
+      "type": "string",
+      "required": true
+    },
+    "Conexao": {
+      "type": "enumeration",
+      "enum": [
+        "VGA",
+        "DVI",
+        "HDMI",
+        "Display Port"
+      ],
+      "default": "VGA"
+    },
+    "Entrada": {
+      "type": "customField",
+      "options": [
+        "VGA",
+        "DVI",
+        "HDMI",
+        "Display Port"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}

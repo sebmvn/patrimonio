@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_informatica_discos_rigidos",
+  "info": {
+    "displayName": "Discos Rígidos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tamanho": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "enumeration",
+      "enum": [
+        "HDD",
+        "SSD",
+        "Híbrido",
+        "M2 NV1",
+        "M2 NV2"
+      ]
+    },
+    "Marca": {
+      "type": "string"
+    }
+  }
+}

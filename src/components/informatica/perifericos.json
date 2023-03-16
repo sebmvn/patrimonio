@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_informatica_perifericos",
+  "info": {
+    "displayName": "Perifericos"
+  },
+  "options": {},
+  "attributes": {
+    "Nome": {
+      "type": "string",
+      "required": true
+    },
+    "Marca": {
+      "type": "string"
+    },
+    "Modelo": {
+      "type": "string"
+    }
+  }
+}

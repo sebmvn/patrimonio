@@ -1,0 +1,152 @@
+{
+  "kind": "collectionType",
+  "collectionName": "computadors",
+  "info": {
+    "singularName": "computador",
+    "pluralName": "computadors",
+    "displayName": "Computador",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Placa": {
+      "displayName": "Placa mãe",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.placa-mae"
+    },
+    "Processador": {
+      "displayName": "Processador",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.processador"
+    },
+    "Memorias": {
+      "displayName": "Memórias",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.memorias"
+    },
+    "Hds": {
+      "displayName": "Discos Rígidos",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.discos-rigidos"
+    },
+    "Fonte": {
+      "displayName": "Fonte de Alimentação",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.fonte-de-alimentacao"
+    },
+    "Monitores": {
+      "displayName": "Monitor",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.monitor"
+    },
+    "Mouse": {
+      "displayName": "Mouse",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.mouse"
+    },
+    "Teclado": {
+      "displayName": "Teclado",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.teclado"
+    },
+    "Perifericos": {
+      "displayName": "Perifericos",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "informatica.perifericos"
+    },
+    "Setor": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Biblioteca",
+        "Sala de Estudos",
+        "Salão",
+        "Sala de Informática",
+        "Sala 11",
+        "Sala 12",
+        "Sala 21",
+        "Sala 22",
+        "Sala 31",
+        "Sala 32",
+        "Secretaria",
+        "Sala 41",
+        "Sala 42",
+        "Sala 43"
+      ],
+      "required": true
+    },
+    "Observacoes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    }
+  }
+}

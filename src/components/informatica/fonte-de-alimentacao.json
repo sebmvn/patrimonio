@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_informatica_fonte_de_alimentacaos",
+  "info": {
+    "displayName": "Fonte de Alimentação",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Potencia": {
+      "type": "string"
+    },
+    "Oito_pinos": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

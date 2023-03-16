@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_informatica_teclados",
+  "info": {
+    "displayName": "Teclado"
+  },
+  "options": {},
+  "attributes": {
+    "Marca": {
+      "type": "string",
+      "required": true
+    },
+    "Modelo": {
+      "type": "string"
+    },
+    "Entrada": {
+      "type": "enumeration",
+      "enum": [
+        "USB",
+        "PS2"
+      ],
+      "default": "USB",
+      "required": true
+    }
+  }
+}
