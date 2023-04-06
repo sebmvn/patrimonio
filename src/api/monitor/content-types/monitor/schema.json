@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monitores",
+  "info": {
+    "singularName": "monitor",
+    "pluralName": "monitores",
+    "displayName": "Monitor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tamanho": {
+      "type": "string"
+    }
+  }
+}
